@@ -3,14 +3,11 @@ package org.algorithm;
 public class Palendrome implements Algorithm {
     @Override
     public void run(String stringToCheck) {
-        String reverse = "";
-        for (int i = stringToCheck.length() - 1; i >= 0; i--) {
-            reverse = reverse + stringToCheck.charAt(i);
-        }
-        if (stringToCheck.equals(reverse)) {
-            System.out.print("Input string is palendrome.");
+        StringBuilder reverseString = new StringBuilder(stringToCheck).reverse();
+        if (stringToCheck.equals(reverseString.toString())) {
+            System.out.print("Input string is a palendrome.");
         } else {
-            System.out.print("Input string is not palendrome.");
+            System.out.print("Input string is not a palendrome.");
         }
     }
     
