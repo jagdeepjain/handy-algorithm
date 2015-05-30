@@ -1,7 +1,8 @@
 package org.algorithm;
 
-public class Factorial implements Algorithm {
-    public void run(int numberLimit) {
+public class Factorial {
+    
+    public static void printFactorial(int numberLimit) {
         int limit = numberLimit;
         for (int i = 1; i <= limit; i++) {
             int factorial = 1;
@@ -12,8 +13,9 @@ public class Factorial implements Algorithm {
         }
     }
     
-    @Override
-    public void run(String s) {
-        // TODO handle if get string
+    public static void main(String args[]) {
+
+        System.out.print("Factorial: ");
+        printFactorial(5);
     }
 }

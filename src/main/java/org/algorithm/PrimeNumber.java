@@ -1,8 +1,8 @@
 package org.algorithm;
 
-public class PrimeNumber implements Algorithm {
+public class PrimeNumber {
     
-    public void run(int limitNumber) {
+    public static void printPrimeNumbers(int limitNumber) {
         for (int i = 1; i < limitNumber; i++) {
             boolean isPrime = true;
             for (int j = 2; j < i; j++) {
@@ -15,13 +15,11 @@ public class PrimeNumber implements Algorithm {
                 System.out.print(i + ", ");
             }
         }
-        System.out.print("\b\b");
     }
     
-    @Override
-    public void run(String s) {
-        // TODO handle if get string
-        
+    public static void main(String args[]) {
+        System.out.print("Prime Numbers: ");
+        printPrimeNumbers(5);
     }
     
 }
