@@ -2,7 +2,7 @@
  * @author jagdeepjain
  *
  */
-package org.algorithm.techgig.codegladiator;
+package org.jagdeep.example.algorithm.techgig.codegladiator;
 
 /*
  * A teacher play a interesting game in the class. He select some n students of the class 

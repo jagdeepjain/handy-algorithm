@@ -1,4 +1,4 @@
-package org.algorithm.techgig.codegladiator;
+package org.jagdeep.example.algorithm.techgig.codegladiator;
 
 /*
  * A Machine M1 takes a sequence of numbers as input and outputs another sequence. Let input 

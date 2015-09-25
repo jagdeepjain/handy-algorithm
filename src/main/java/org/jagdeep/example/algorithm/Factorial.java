@@ -1,4 +1,4 @@
-package org.algorithm;
+package org.jagdeep.example.algorithm;
 
 public class Factorial {
     

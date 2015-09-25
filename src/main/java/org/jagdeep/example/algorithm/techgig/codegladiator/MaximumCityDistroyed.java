@@ -2,7 +2,7 @@
  * @author jagdeepjain
  *
  */
-package org.algorithm.techgig.codegladiator;
+package org.jagdeep.example.algorithm.techgig.codegladiator;
 
 /*
  * As a commander of an army battalion, you have to plan the attach on some enemy cities 
