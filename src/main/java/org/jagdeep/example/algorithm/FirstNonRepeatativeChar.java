@@ -8,6 +8,7 @@ public class FirstNonRepeatativeChar {
     public static void getFirstNonRepeatativeChar(String intputString) {
         char[] letters = intputString.toCharArray();
         int count = 0;
+        boolean firstNonRepeatativeChar = false;
         
         for (int i = 0; i < letters.length; i++) {
             count = 0;
@@ -18,8 +19,13 @@ public class FirstNonRepeatativeChar {
             }
             if (count == 1) {
                 System.out.println("Character '" + letters[i] + "' is the first non repeatative character.");                
+                firstNonRepeatativeChar = true;
                 break;
             } 
+        }
+        
+        if (firstNonRepeatativeChar != true) {
+            System.out.println("No repeative character found.");
         }
     }
     
@@ -28,5 +34,6 @@ public class FirstNonRepeatativeChar {
         getFirstNonRepeatativeChar("aabc");
         getFirstNonRepeatativeChar("aabbc");
         getFirstNonRepeatativeChar("aabxfbcc");
+        getFirstNonRepeatativeChar("aabbcc");
     }
 }
