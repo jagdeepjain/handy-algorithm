@@ -18,7 +18,7 @@ public class FirstNonRepeatativeChar {
                 }
             }
             if (count == 1) {
-                System.out.println("Character '" + letters[i] + "' is the first non repeatative character.");                
+                System.out.println("Character '" + letters[i] + "' is the first non repeatative character at index # " + i + ".");                
                 firstNonRepeatativeChar = true;
                 break;
             } 

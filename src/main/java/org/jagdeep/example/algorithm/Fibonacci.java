@@ -7,7 +7,7 @@ package org.jagdeep.example.algorithm;
 public class Fibonacci {
     
     public static void main(String args[]) {
-        int sum = 0, first = 0, second = 1;
+        int sum = 0, first = 1, second = 2;
         
         System.out.println(first);
         System.out.println(second);
